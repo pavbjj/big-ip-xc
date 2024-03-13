@@ -3,6 +3,7 @@ variable "api_url" {
 }
 
 variable "api_p12_file" {
+  default = "./api-xc.p12"
 }
 
 variable "base" {
@@ -10,5 +11,5 @@ variable "base" {
 }
 
 variable "namespace" {
-
+  default = "sandbox"
 }
